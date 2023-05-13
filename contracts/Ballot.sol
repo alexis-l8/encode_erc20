@@ -86,6 +86,7 @@ contract Ballot {
         // In this case, the delegation will not be executed,
         // but in other situations, such loops might
         // cause a contract to get "stuck" completely.
+        // A: address(0) is the empty address: https://github.com/Encode-Club-Solidity-Bootcamp/Lesson-08/issues/42
         while (voters[to].delegate != address(0)) {
             to = voters[to].delegate;
 

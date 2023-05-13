@@ -939,6 +939,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@openzeppelin/contracts@npm:^4.8.3":
+  version: 4.8.3
+  resolution: "@openzeppelin/contracts@npm:4.8.3"
+  checksum: aea130d38d46840c5cbe3adbaa9a7ac645e4bd66ad3f3baf2fa78588c408d1a686170b3408c9e2e5e05530fba22ecdc00d7efb6b27852a8b29f91accbc0af255
+  languageName: node
+  linkType: hard
+
 "@scure/base@npm:~1.1.0":
   version: 1.1.1
   resolution: "@scure/base@npm:1.1.1"
@@ -1209,9 +1216,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:>=12.0.0":
-  version: 20.1.0
-  resolution: "@types/node@npm:20.1.0"
-  checksum: c6d9afa9aa78b4b4348c69ece94975be70346b144c278f1395694a10ef919d7db300018101b6f9245e6bdd76674a5327d2d14829092f3d5295e858cff5f22a66
+  version: 20.1.1
+  resolution: "@types/node@npm:20.1.1"
+  checksum: 47961ee23f873c14c3f6045422ff3059f3bfb10231ef3080a7a72d7215cc8c2623fa8cedb7b246305962fa9c1e0c9e381e04b12eb3e9ec5d076025c6231ac8da
   languageName: node
   linkType: hard
 
@@ -2528,6 +2535,36 @@ __metadata:
   checksum: d4c5c39d5a9868b5fa152f00cada8a936868fd3367f33f71be515ecee4c803132d11b31a6222b2571b1e5f7e13890156a94880345594d0ce7e3c9895f560f192
   languageName: node
   linkType: hard
+
+"encode_erc20@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "encode_erc20@workspace:."
+  dependencies:
+    "@ethersproject/abi": ^5.4.7
+    "@ethersproject/providers": ^5.4.7
+    "@nomicfoundation/hardhat-chai-matchers": ^1.0.0
+    "@nomicfoundation/hardhat-network-helpers": ^1.0.0
+    "@nomicfoundation/hardhat-toolbox": ^2.0.0
+    "@nomiclabs/hardhat-ethers": ^2.0.0
+    "@nomiclabs/hardhat-etherscan": ^3.0.0
+    "@openzeppelin/contracts": ^4.8.3
+    "@typechain/ethers-v5": ^10.1.0
+    "@typechain/hardhat": ^6.1.2
+    "@types/chai": ^4.2.0
+    "@types/mocha": ">=9.1.0"
+    "@types/node": ">=12.0.0"
+    chai: ^4.2.0
+    dotenv: ^16.0.3
+    ethers: ^5.4.7
+    hardhat: ^2.14.0
+    hardhat-gas-reporter: ^1.0.8
+    mocha: ^10.2.0
+    solidity-coverage: ^0.8.0
+    ts-node: ">=8.0.0"
+    typechain: ^8.1.1
+    typescript: ">=4.5.0"
+  languageName: unknown
+  linkType: soft
 
 "encoding@npm:^0.1.13":
   version: 0.1.13
@@ -5350,35 +5387,6 @@ __metadata:
   checksum: 1d38588e520dab7cea67cbbe2efdd86a10cc7a074c09657635e34f035277b59fbb57d09d8638346bf7090f8e8ebc070c96fa5fd183b777fff4f5edff5e9466cf
   languageName: node
   linkType: hard
-
-"project@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "project@workspace:."
-  dependencies:
-    "@ethersproject/abi": ^5.4.7
-    "@ethersproject/providers": ^5.4.7
-    "@nomicfoundation/hardhat-chai-matchers": ^1.0.0
-    "@nomicfoundation/hardhat-network-helpers": ^1.0.0
-    "@nomicfoundation/hardhat-toolbox": ^2.0.0
-    "@nomiclabs/hardhat-ethers": ^2.0.0
-    "@nomiclabs/hardhat-etherscan": ^3.0.0
-    "@typechain/ethers-v5": ^10.1.0
-    "@typechain/hardhat": ^6.1.2
-    "@types/chai": ^4.2.0
-    "@types/mocha": ">=9.1.0"
-    "@types/node": ">=12.0.0"
-    chai: ^4.2.0
-    dotenv: ^16.0.3
-    ethers: ^5.4.7
-    hardhat: ^2.14.0
-    hardhat-gas-reporter: ^1.0.8
-    mocha: ^10.2.0
-    solidity-coverage: ^0.8.0
-    ts-node: ">=8.0.0"
-    typechain: ^8.1.1
-    typescript: ">=4.5.0"
-  languageName: unknown
-  linkType: soft
 
 "promise-inflight@npm:^1.0.1":
   version: 1.0.1
